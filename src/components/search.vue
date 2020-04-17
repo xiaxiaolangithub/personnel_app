@@ -1,13 +1,15 @@
 <template>
     <div class="searchPage">
         <div class="top">
-            <div class="top_left">
-                <img src="@/assets/images/search/back.png" alt="">
-                <x-input placeholder="老用户福利" v-model="keyword">
-                    <i slot="label"  class="iconfont icon-sousuo" style="font-size:0.45rem;margin-right:0.2rem;"></i>
-                    <img style="padding-right:10px;display:block;" src="" width="24" height="24">
-                </x-input>
-                <p class="top_right">搜索</p>
+            <div class="top_inner">
+                <img src="@/assets/images/search/back.png" alt="" class="top_left">
+                <div class="top_middle">
+                    <x-input placeholder="老用户福利" v-model="keyword">
+                        <i slot="label"  class="iconfont icon-sousuo"></i>
+                        <img style="padding-right:10px;display:block;" src="" width="24" height="24">
+                    </x-input>
+                    <p class="top_right">搜索</p>
+                </div>
             </div>
         </div>
         <!-- 热门搜索记录 -->
@@ -126,43 +128,57 @@ export default {
 </script>
 
 <style lang="less">
+@deep: ~'>>>';
     .searchPage{
         .top{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 1rem;
+            height: 90px;
             padding:0.2rem;
             background: #fff;
-            .top_left{
+            .top_inner{
+                width:1010px;
                 display: flex;
-                width:90%;
                 align-items: center;
+                justify-content: space-around;
+            }
+            .top_left{
+                width: 50px;
+                height: 50px;
+            }
+            .top_middle{
+                display: flex;
+                width:805px;
+                align-items: center;
+                .icon-sousuo{
+                    font-size: 42px;
+                    color:#a0a0a0;
+                    margin-right: 15px;
+                }
+                @{deep} .weui-cell{
+                    width:805px;
+                }
                 img{
                     height:0.55rem;
                 }
-                /deep/ .vux-header{
+                @{deep} .vux-header{
                     background: transparent;
-                    /deep/ .left-arrow:before{
+                    @{deep} .left-arrow:before{
                         width:0.8rem;
                     }
                 }
-                /deep/ .vux-x-input{
+                @{deep} .vux-x-input{
                     background: #f5f5f5;
-                    width:99%;
+                    width:805px;
                     margin-left: 0.2rem;
                     border-radius: 0.5rem;
-                }
-                /deep/ .weui-cell:before{
-                    border-top: 0;
                 }
             }
             .top_right{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 0.45rem;
-                width:10%;
+                font-size: 36px;
+                color:#86868e;
+                margin-left: 34px;
             }
         }
         .host{

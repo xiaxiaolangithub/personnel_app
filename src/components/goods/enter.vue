@@ -89,7 +89,7 @@
         <!-- 商品活动 -->
         <div class="eventact"> 
             <sticky scroll-box="vux_view_box_body"   ref="sticky"   :offset="46"   :check-sticky-support="false"  :disabled="disabled">
-                <tab :line-width=0>
+                <tab :line-width=0 scroll-threshold="5">
                     <tab-item :selected="demo === index" v-for="(item, index) in eventTabData" @click="demo = index" :key="index">
                         <h3>{{item.title}}</h3>
                         <p>{{item.sum_title}}</p>
@@ -808,7 +808,9 @@ export default {
     }
     // 商品各类活动集合
     .eventact{
-
+        @{deep} .vux-tab-selected{
+            color:#e2231a;
+        }
     }
 
 }
