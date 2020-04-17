@@ -102,6 +102,7 @@ module.exports = vuxLoader.merge(webpackConfig, {
           }
         }
       }
-    }
+    },
+    {name: 'less-theme', path: 'src/assets/style/golbal.less'}//自定义的Less文件路径
   ]
 })

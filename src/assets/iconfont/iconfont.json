@@ -6,6 +6,139 @@
   "description": "移动端项目",
   "glyphs": [
     {
+      "icon_id": "1304877",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "630128",
+      "name": "照相机",
+      "font_class": "zhaoxiangji",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "11845355",
+      "name": "分类",
+      "font_class": "icon_xinyong_xianxing_jijin-",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1069146",
+      "name": "扫一扫 ",
+      "font_class": "saoyisao1",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "376343",
+      "name": "返回",
+      "font_class": "arrow-left",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "720974",
+      "name": "信息",
+      "font_class": "xiazai16",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "3783393",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "485766",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "10392618",
+      "name": "首页- 未选中",
+      "font_class": "shouye-weixuanzhong",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6322878",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "14029665",
+      "name": "首页",
+      "font_class": "shouye-copy",
+      "unicode": "e7ff",
+      "unicode_decimal": 59391
+    },
+    {
+      "icon_id": "14029658",
+      "name": "类目 品类 分类 类别.2",
+      "font_class": "leimupinleifenleileibie2-copy-copy",
+      "unicode": "e7fb",
+      "unicode_decimal": 59387
+    },
+    {
+      "icon_id": "14029660",
+      "name": "我 的",
+      "font_class": "wodedangxuan-copy",
+      "unicode": "e7fc",
+      "unicode_decimal": 59388
+    },
+    {
+      "icon_id": "14029661",
+      "name": "购物车",
+      "font_class": "gouwuche-copy",
+      "unicode": "e7fd",
+      "unicode_decimal": 59389
+    },
+    {
+      "icon_id": "14029662",
+      "name": "发现",
+      "font_class": "faxian-copy",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "100742",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "689262",
+      "name": "类目 品类 分类 类别",
+      "font_class": "leimupinleifenleileibie",
+      "unicode": "e7f9",
+      "unicode_decimal": 59385
+    },
+    {
+      "icon_id": "1265514",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "9148716",
+      "name": "发现",
+      "font_class": "faxian1",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
       "icon_id": "6444202",
       "name": "招商小程序-密码不可见 ",
       "font_class": "zhaoshangxiaochengxu-mimabukejian",
